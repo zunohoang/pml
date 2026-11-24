@@ -1,0 +1,6 @@
+class_name,precision,recall,f1,support
+healthy,0.8571,0.9057,0.8807,106
+leaf_miner,0.8085,0.8000,0.8042,190
+rust,0.9075,0.8997,0.9036,349
+brown_spot,0.9419,0.9382,0.9400,259
+cercospora,0.5784,0.5784,0.5784,102

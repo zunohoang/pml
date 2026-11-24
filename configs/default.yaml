@@ -1,0 +1,25 @@
+seed: 42
+data_root: data/raw/leaf
+image_max_size: 256
+classes:
+  - brown_spot
+  - cercospora
+  - healthy
+  - leaf_miner
+  - rust
+folds: 5
+svm:
+  C: [0.1, 1, 10, 100]
+  gamma: ["scale", 0.003, 0.001, 0.0003, 0.0001]
+decision_tree:
+  max_depth: [null, 5, 10, 20]
+  min_samples_leaf: [1, 5, 10]
+label_by_code:
+  0: healthy
+  1: leaf_miner
+  2: rust
+  3: brown_spot
+  4: cercospora
+ignored_codes: [5]
+test_size: 0.25
+model_dir: models/artifacts

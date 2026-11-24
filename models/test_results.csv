@@ -1,0 +1,5 @@
+model_name,class_weight,selected_by_cv,train_accuracy,cv_accuracy,test_accuracy,train_macro_f1,cv_macro_f1,test_macro_f1
+svm,none,False,0.9970,0.8598,0.8363,0.9959,0.8200,0.7948
+svm,balanced,True,0.9871,0.8588,0.8601,0.9836,0.8209,0.8283
+decision_tree,none,False,0.9130,0.7545,0.7827,0.8935,0.7131,0.7440
+decision_tree,balanced,False,1.0000,0.7544,0.7381,1.0000,0.7087,0.6980

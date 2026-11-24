@@ -1,0 +1,6 @@
+actual_class,healthy,leaf_miner,rust,brown_spot,cercospora
+healthy,31,2,1,0,2
+leaf_miner,1,51,5,0,6
+rust,3,0,104,0,9
+brown_spot,0,4,0,79,4
+cercospora,1,4,4,1,24

@@ -1,0 +1,7 @@
+group,region,importance,feature_count
+color,leaf,0.4848,100
+color,lesion,0.2325,102
+texture,leaf,0.2030,144
+gradient,leaf,0.0541,24
+texture,lesion,0.0255,26
+shape,lesion,0.0000,7

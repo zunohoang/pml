@@ -1,0 +1,5 @@
+model_name,class_weight,best_params,train_accuracy,cv_accuracy,cv_accuracy_std,train_macro_f1,best_cv_macro_f1,cv_std,fit_seconds
+svm,none,"{""svc__C"": 100, ""svc__gamma"": 0.0003}",0.9970,0.8598,0.0157,0.9959,0.8200,0.0205,41.4287
+svm,balanced,"{""svc__C"": 10, ""svc__gamma"": 0.001}",0.9871,0.8588,0.0112,0.9836,0.8209,0.0119,36.7774
+decision_tree,none,"{""decisiontreeclassifier__max_depth"": 10, ""decisiontreeclassifier__min_samples_leaf"": 5}",0.9130,0.7545,0.0227,0.8935,0.7131,0.0264,9.9774
+decision_tree,balanced,"{""decisiontreeclassifier__max_depth"": null, ""decisiontreeclassifier__min_samples_leaf"": 1}",1.0000,0.7544,0.0314,1.0000,0.7087,0.0306,7.9474

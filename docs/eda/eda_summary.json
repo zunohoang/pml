@@ -1,0 +1,65 @@
+{
+  "class_imbalance_ratio": 3.4191176470588234,
+  "classes": {
+    "brown_spot": {
+      "test": 87,
+      "total": 346,
+      "train": 259
+    },
+    "cercospora": {
+      "test": 34,
+      "total": 136,
+      "train": 102
+    },
+    "healthy": {
+      "test": 36,
+      "total": 142,
+      "train": 106
+    },
+    "leaf_miner": {
+      "test": 63,
+      "total": 253,
+      "train": 190
+    },
+    "rust": {
+      "test": 116,
+      "total": 465,
+      "train": 349
+    }
+  },
+  "constant_columns": 62,
+  "dataset_rows": 1747,
+  "feature_columns": 403,
+  "feature_group_counts": {
+    "color": 202,
+    "gradient": 24,
+    "shape": 7,
+    "texture": 170
+  },
+  "feature_region_counts": {
+    "leaf": 268,
+    "lesion": 135
+  },
+  "highly_correlated_pairs": 237,
+  "image_files": 1401,
+  "labeled_multilabel_rows": 315,
+  "labeled_rows": 1685,
+  "multilabel_rows": 372,
+  "pca": {
+    "components_for_90_percent": 63,
+    "explained_variance_ratio": [
+      0.19724794045764266,
+      0.11559167035025548
+    ]
+  },
+  "rows_with_image": 1401,
+  "usable_images": 1342,
+  "zero_constant_columns": 62,
+  "zero_lesion_block_by_class": {
+    "brown_spot": 1,
+    "cercospora": 2,
+    "healthy": 9,
+    "leaf_miner": 6,
+    "rust": 19
+  }
+}

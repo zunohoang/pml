@@ -1,0 +1,6 @@
+label,total,train,test
+healthy,142,106,36
+leaf_miner,253,190,63
+rust,465,349,116
+brown_spot,346,259,87
+cercospora,136,102,34

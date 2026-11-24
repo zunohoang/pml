@@ -1,0 +1,7 @@
+predominant_stress,rows,images_with_file,label,used,usable_images
+0,272,142,healthy,True,142
+1,387,253,leaf_miner,True,253
+2,531,465,rust,True,465
+3,348,346,brown_spot,True,346
+4,147,136,cercospora,True,136
+5,62,59,ignored,False,0

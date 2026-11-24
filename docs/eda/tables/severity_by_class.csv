@@ -1,0 +1,6 @@
+label,n,minimum,q1,median,mean,q3,maximum
+healthy,272,0,0,0,0,0,0
+brown_spot,348,1,1,1,1.59482758621,2,4
+leaf_miner,387,1,1,1,1.34108527132,2,3
+cercospora,147,1,1,1,1.14965986395,1,4
+rust,531,1,1,1,1.64218455744,2,4

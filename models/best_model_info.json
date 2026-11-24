@@ -1,0 +1,23 @@
+{
+  "model_name": "svm",
+  "class_weight": "balanced",
+  "best_params": {
+    "svc__C": 10,
+    "svc__gamma": 0.001
+  },
+  "best_cv_macro_f1": 0.8209289537868024,
+  "cv_std": 0.011925717125158459,
+  "train_macro_f1": 0.9836494975917403,
+  "train_accuracy": 0.9870779642161862,
+  "cv_accuracy": 0.8588443919018767,
+  "feature_count": 403,
+  "train_rows": 1006,
+  "class_names": [
+    "healthy",
+    "leaf_miner",
+    "rust",
+    "brown_spot",
+    "cercospora"
+  ],
+  "sklearn_version": "1.9.1"
+}
